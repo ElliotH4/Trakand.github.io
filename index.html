@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SV101 Venture Partners</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons/css/ionicons.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (1600) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  <body>
+
+    <header id="main-page">
+      <a href="#main-page"><img id="Logo" src="images/foregrounds/Logo.png" alt="Logo"></a>
+      <div id="nav-bar">
+        <ul>
+          <li><a class="non-btn" href="#contact-us">Contact Us</a></li>
+          <li><a class="non-btn" href="#team">Team</a></li>
+          <li><a class="non-btn" href="#GYES">Bootcamp</a></li>
+          <li><a class="non-btn" href="#programs">Programs</a></li>
+          <li><a class="non-btn" href="#about-us">About Us</a></li>
+        </ul>
+      </div>
+      <div id="main-text-box">
+        <h1><span>SV101 Venture Partners</span><br>Rethinking Silicon Valley</h1>
+        <a class="btn btn-full" href="#contact-us">Get Involved</a>
+        <a class="btn btn-empty" href="#programs">Learn More</a>
+      </div>
+    </header>
+
+    <section id="about-us">
+      <h2>SV101 &mdash; Who We Are</h2>
+      <div id="about-paragraph">
+        <p>Founded in 2015 by the two experienced industry experts, Stephanie Son and Jung Moon, SV 101 Venture Partners is a global technology accelerator located both in the heart of Silicon Valley and Seoul, Korea. SV1 01 aspires to become a strategic partner to entrepreneurs who are determined and ambitious enough to create their global profiles.<br><br>
+        SV 101 teams up with its strategic investment partners to invest in early-stage startups and help them seamlessly grow in the global market.<br><br>
+        The mission of SV 101 Venture Partners is to promote innovative global startups and to incubate technology companies by providing professional accelerator programs and startup learning platforms.</p>
+      </div>
+      <div id="about-focus">
+        <ul>
+          <li><i class="icon-small ion-ios-world-outline"></i><p>Global Startup Eco-System Builder</p></li>
+          <li><i class="icon-small ion-ios-chatboxes-outline"></i><p>Global Business Launch Pad</p></li>
+          <li><i class="icon-small ion-ios-lightbulb-outline"></i><p>Bringing Innovative Technologies to Market</p></li>
+          <li><i id="one" class="icon-small ion-ios-people-outline"></i><p>Fostering Innovation and Growth through Technology Enhancement</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="venue">
+      <h1>Silicon Valley<br><span>Reimagined.</span><br></h1>
+    </section>
+
+    <section id="programs">
+      <h2>Programs &mdash; What They Are</h2>
+      <div id="programs-timeline">
+        <img src="images\foregrounds\program-timeline.png" alt="Program Timeline">
+      </div>
+      <div id="programs-paragraph">
+        <h4 id="center"><strong>SV 101 Tech Accelerator Programs</strong></h4><br>
+        <p>SV 101 Startup Accelerator offers entrepreneurs a great opportunity to scale their startups.   Through SV 101 Accelerator Programs, startups can leverage everything that SV 101 has to offer, including mentorship from trusted experts in SV 101’s extended network to scale their businesses, while tapping into new global opportunities. SV 101 aspires to become a strategic partner to entrepreneurs who are determined, ambitious, and are seeking to create their global profiles by providing the following programs:</p><br><br>
+        <ul>
+          <h4><strong>Startup Accelerator Programs</strong></h4><br>
+          <li><p>Startup Bootcamp Korea: Pre-Startup Accelerator Program</p></li>
+          <li><p>SV101 Online Mentoring Program</p></li>
+          <li><p>Silicon Valley Access Program</p></li>
+          <li><p>Startup Launch / Investment</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="GYES">
+      <h2>SV101 Startup Bootcamp</h2>
+      <div id="GYES-paragraph">
+        <p>Since its inception in 2015, SV101 has been hosting some of the most intriguing events<br><br> to help Korean startups create a global profile and enter the U.S. market.</p>
+      </div>
+      <div class="GYES-image">
+        <img src="images\foregrounds\gyes\GYES-1.png" alt="Busan, Korea" />
+        <p id="GYES-Caption">
+          <strong>Busan, Korea</strong><br><br>
+          Date: February 20-23, 2017<br><br>
+          Participants: 17 Startups
+        </p>
+      </div>
+      <div class="GYES-image middle-image">
+        <img src="images\foregrounds\gyes\GYES-2.png" alt="Silicon Valley, CA" />
+        <p id="GYES-Caption">
+          <strong>Silicon Valley, CA</strong><br><br>
+          Date: December 4-10, 2016<br><br>
+          Participants: 5 companies
+        </p>
+      </div>
+      <div class="GYES-image last-image">
+        <img src="images\foregrounds\gyes\GYES-3.png" alt="Daegu, Korea" />
+        <p id="GYES-Caption">
+          <strong>Daegu, Korea</strong><br><br>
+          Date: July 25-28, 2016<br><br>
+          Participants: 30 Startups
+        </p>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>The SV101 Team</h2>
+      <div id="shift">
+      <h4 id="board-title"><strong>Board Members</strong></h4>
+      <div id="board-members">
+        <div class="team-members">
+          <ul class="members">
+            <li class="mentor"><img src="images/foregrounds/mentors/Jung-Moon.png" alt="Jung Moon"><p><strong><span>Jung Moon</span><br>Founding Partner</strong><br>Venture Investment<br>Global Operations</p></li>
+            <li class="mentor middle"><img src="images/foregrounds/mentors/Stephanie-Son.jpeg" alt="Stephanie Son"><p><strong><span>Stephanie Son</span><br>Founding Partner</strong><br>Corporate Strategy<br>Global Alliances</p></li>
+            <li class="mentor last spacer"><img src="images/foregrounds/mentors/Dean-Sivara.png" alt="Dean Sivara"><p><strong><span>Dean Sivara</span><br>Board of Director</strong><br>VP of Portfolio &<br>Strategy, SAP</p></li>
+          </ul>
+        </div>
+      </div>
+      <h4 id="advisor-title"><strong>Advisors</strong></h4>
+      <div id="advisor-members">
+        <div class="team-members">
+          <ul class="members">
+            <li class="mentor"><img src="images/foregrounds/mentors/Jim-Connor.png" alt="Jim Connor"><p><strong><span>Jim Connor</span><br>Board Director of</strong><br>Angel Capital<br>Association</p></li>
+            <li class="mentor middle"><img src="images/foregrounds/mentors/Clint-Chao.png" alt="Clint Chao"><p><strong><span>Clint Chao</span><br>Managing Director</strong><br>Moment<br>Ventures</p></li>
+            <li class="mentor last"><img src="images/foregrounds/mentors/David-Emerson.jpg" alt="David Emerson"><p><strong><span>David Emerson</span><br>Principal</strong><br>Greendale<br>Ventures</p></li>
+          </ul>
+        </div>
+        <div class="team-members">
+          <ul class="members">
+            <li class="mentor"><img src="images/foregrounds/mentors/Don-Ross.png" alt="Don Ross"><p><strong><span>Don Ross</span><br>Managing Partner</strong><br>Digital Health at<br>Life Science Angels</p></li>
+            <li class="mentor middle"><img src="images/foregrounds/mentors/Manthi-Nguyen.png" alt="Manthi Nguyen"><p><strong><span>Manthi Nguyen</span><br>A Member of</strong><br>Sand Hill Angels<br>Sierra Angels</p></li>
+            <li class="mentor last"><img src="images/foregrounds/mentors/Steve-Clint.png" alt="Steve Clinton"><p><strong><span>Steve Clinton</span><br>Corporate Lawyer</strong><br>Womble Carlyle<br>Sandridge & Rice</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <ul id="contact-form">
+        <form>
+
+          <div id="name-label" class="span-one-of-three"><label for="name">Name</label></div>
+          <div class="span-two-of-three"><input type="text" id="name" name="name" placeholder="Name" required></div>
+          <br><br>
+          <div id="email-label" class="span-one-of-three"><label for="email">Email</label></div>
+          <div class="span-two-of-three"><input type="email" id="email" name="email" placeholder="Email" required></div>
+          <br><br>
+          <div id="country-label" class="span-one-of-three"><label for="country">Country</label></div>
+          <div class="span-two-of-three"><select id="country" name="country" required>
+            <option value="united-states">United States</option>
+            <option value="canada">Canada</option>
+            <option value="korea">Korea</option>
+            <option value="other">Other</option>
+          </select></div>
+          <br><br>
+          <div id="message-label" class="span-one-of-three"><label for="message">Message</label></div>
+          <div class="span-two-of-three"><textarea id="message" name="message" placeholder="Message" required></textarea></div>
+          <br><br>
+          <div class="span-two-of-three"><input type="submit" name="submit"></div>
+        </form>
+      </ul>
+    </section>
+
+    <footer>
+      <ul id="social-links">
+        <li><a href="https://www.facebook.com/sv101venture/"><i class="btn-social ion-social-facebook"></i></a></li>
+        <li><a href="https://twitter.com/SV101VP?lang=en"><i class="btn-social ion-social-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/sv-101-venture-partners/"><i class="btn-social ion-social-linkedin"></i></a></li>
+      </ul>
+      <h3 id="copyright">&copy; SV101 Venture Partners</h3>
+      <h3 class="location">4500 Great America Pkwy, Suite 100<br>Santa Clara, CA 95054</h3>
+      <h3 class="location">18F 419, Teheran-ro, Gangnam-gu, Seoul<br> Republic of Korea</h3>
+      <h3 id="contact">info@sv101venturepartners.com</h3>
+    </footer>
+  </body>
+</html>

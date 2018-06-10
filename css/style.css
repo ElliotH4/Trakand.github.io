@@ -1,0 +1,1416 @@
+
+/* Extra small devices (phones, 480px and up) */
+@media only screen and (min-width: 480px) {
+  /* =========================================================================== */
+  /* Reusable                                                                    */
+  /* =========================================================================== */
+  section {
+    height: 1100px;
+  }
+
+  /* =========================================================================== */
+  /* Header                                                                      */
+  /* =========================================================================== */
+  #nav-bar {
+    padding-top: 35px;
+  }
+
+  #nav-bar li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  #nav-bar {
+    margin-right: 20px;
+  }
+
+  #Logo {
+    margin-left: 20px;
+  }
+
+  #main-text-box {
+    margin-left: 20px;
+  }
+
+  #main-text-box {
+    padding-top: 175px;
+  }
+
+  /* =========================================================================== */
+  /* About Us                                                                    */
+  /* =========================================================================== */
+  #about-paragraph {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #about-focus {
+    width: 100%;
+  }
+
+  #about-us p,
+  #programs p {
+    font-size: 100%;
+  }
+
+  #about-us ul {
+    padding-top: 40px;
+    margin-left: 0px;
+  }
+
+  #about-us li p,
+  #programs li p,
+   {
+    font-size: 100%;
+    text-align: left;
+  }
+
+  #one {
+    margin-top: 30px;
+  }
+
+  /* =========================================================================== */
+  /* Venue                                                                       */
+  /* =========================================================================== */
+  #venue h1 {
+    font-size: 300%;
+    padding-top: 150px;
+  }
+
+  /* =========================================================================== */
+  /* Programs                                                                    */
+  /* =========================================================================== */
+
+  #programs {
+    height: 1250px;
+  }
+
+  #programs ul {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  #programs-timeline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #programs-timeline img {
+    width: 100%;
+    height: 450px;
+  }
+
+  /* =========================================================================== */
+  /* GYES                                                                        */
+  /* =========================================================================== */
+  #GYES {
+    height: 1290px;
+  }
+
+  .GYES-image {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    float: left;
+
+    background-color: #000000;
+  }
+
+  /* =========================================================================== */
+  /* Team                                                                        */
+  /* =========================================================================== */
+  #team {
+    height: 1400px;
+  }
+
+  #shift {
+    margin-left: 20px;
+  }
+
+  .members img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    float: left;
+
+    box-shadow: -1px 1px 10px #2d2d2d;
+  }
+
+  #team p {
+    width: 180px;
+    font-size: 100%;
+    padding-left: 180px;
+    padding-top: 20px;
+  }
+
+  .members li {
+    float: left;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .mentor {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .last {
+    margin-right: 0%;
+  }
+
+  /* =========================================================================== */
+  /*  Contact Us                                                                 */
+  /* =========================================================================== */
+  #contact-us {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Footer                                                                      */
+  /* =========================================================================== */
+  #copyright,
+  .location {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    margin-right: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* =========================================================================== */
+  /* Reusable                                                                    */
+  /* =========================================================================== */
+  section {
+    height: 900px;
+  }
+
+  /* =========================================================================== */
+  /* Header                                                                      */
+  /* =========================================================================== */
+  #nav-bar {
+    padding-top: 35px;
+  }
+
+  #nav-bar li {
+    margin-left: 50px;
+  }
+
+  #nav-bar {
+    margin-right: 50px;
+  }
+
+  #Logo {
+    margin-left: 50px;
+  }
+
+  #main-text-box {
+    margin-left: 20px;
+  }
+
+  #main-text-box {
+    padding-top: 200px;
+  }
+
+  /* =========================================================================== */
+  /* About Us                                                                    */
+  /* =========================================================================== */
+  #about-paragraph {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #about-focus {
+    width: 100%;
+  }
+
+  #about-us p,
+  #programs p {
+    font-size: 100%;
+  }
+
+  #about-us ul {
+    padding-top: 40px;
+    margin-left: 0px;
+  }
+
+  #about-us li p,
+  #programs li p,
+   {
+    font-size: 100%;
+  }
+
+  #one {
+    margin-top: 10px;
+  }
+
+  /* =========================================================================== */
+  /* Venue                                                                       */
+  /* =========================================================================== */
+  #venue h1 {
+    font-size: 380%;
+    padding-top: 150px;
+  }
+
+  /* =========================================================================== */
+  /* Programs                                                                    */
+  /* =========================================================================== */
+  #programs {
+    height: 1150px;
+  }
+
+  #programs ul {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  #programs-timeline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #programs-timeline img {
+    width: 100%;
+    height: 450px;
+  }
+
+  /* =========================================================================== */
+  /* GYES                                                                        */
+  /* =========================================================================== */
+  #GYES {
+    height: 1350px;
+  }
+
+  .GYES-image {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    float: left;
+
+    background-color: #000000;
+  }
+
+  /* =========================================================================== */
+  /* Team                                                                        */
+  /* =========================================================================== */
+  #team {
+    height: 1400px;
+  }
+
+  #shift {
+    margin-left: 15px;
+  }
+
+  .members img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    float: left;
+
+    box-shadow: -1px 1px 10px #2d2d2d;
+  }
+
+  #team p {
+    width: 180px;
+    font-size: 100%;
+    padding-left: 180px;
+    padding-top: 20px;
+  }
+
+  .members li {
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+
+  .mentor {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  /* =========================================================================== */
+  /*  Contact Us                                                                 */
+  /* =========================================================================== */
+  #contact-us {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Footer                                                                    */
+  /* =========================================================================== */
+  #copyright,
+  .location {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    margin-right: 30px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* =========================================================================== */
+  /* Reusable                                                                    */
+  /* =========================================================================== */
+  section {
+    height: 700px;
+  }
+
+  /* =========================================================================== */
+  /* Header                                                                      */
+  /* =========================================================================== */
+  #nav-bar {
+    padding-top: 50px;
+  }
+
+  #nav-bar li {
+    margin-left: 40px;
+  }
+
+  #nav-bar {
+    margin-right: 20px;
+  }
+
+  #Logo {
+    margin-left: 20px;
+  }
+
+  #main-text-box {
+    margin-left: 20px;
+  }
+
+  #main-text-box {
+    padding-top: 250px;
+  }
+
+  /* =========================================================================== */
+  /* About Us                                                                    */
+  /* =========================================================================== */
+  #about-paragraph {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #about-focus {
+    width: 100%;
+  }
+
+  #about-us p,
+  #programs p {
+    font-size: 100%;
+  }
+
+  #about-us ul {
+    padding-top: 40px;
+  }
+
+  #about-us li p,
+  #programs li p,
+   {
+    font-size: 100%;
+  }
+
+  #one {
+    margin-top: 10px;
+  }
+
+  /* =========================================================================== */
+  /* Venue                                                                       */
+  /* =========================================================================== */
+  #venue h1 {
+    font-size: 380%;
+    padding-top: 200px;
+  }
+
+  /* =========================================================================== */
+  /* Programs                                                                    */
+  /* =========================================================================== */
+  #programs {
+    height: 750px;
+  }
+
+  #programs-timeline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #programs-timeline img {
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+    float: left;
+  }
+
+  #programs-paragraph {
+    width: 50%;
+    float: right;
+    font-size: 90%;
+  }
+
+
+  /* =========================================================================== */
+  /* GYES                                                                        */
+  /* =========================================================================== */
+  #GYES {
+    height: 544px;
+  }
+
+  .GYES-image {
+    width: 48%;
+    height: 300px;
+    margin-right: 2%;
+    float: left;
+
+    background-color: #000000;
+  }
+
+  .middle-image {
+    margin-right: 0%;
+  }
+
+  .last-image {
+    display: none;
+  }
+
+  /* =========================================================================== */
+  /* Team                                                                        */
+  /* =========================================================================== */
+  #team {
+    height: 850px;
+  }
+
+  #shift {
+    margin-left: 20px;
+  }
+
+  .members img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    float: left;
+
+    box-shadow: -1px 1px 10px #2d2d2d;
+  }
+
+  #team p {
+    width: 180px;
+    font-size: 90%;
+    padding-left: 135px;
+    padding-top: 20px;
+  }
+
+  .members li {
+    float: left;
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .mentor {
+    width: 48%;
+    margin-right: 2%;
+  }
+
+  .spacer {
+    width: 100%;
+  }
+
+  /* =========================================================================== */
+  /*  Contact Us                                                                 */
+  /* =========================================================================== */
+  #contact-us {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Footer                                                                      */
+  /* =========================================================================== */
+  #copyright,
+  .location {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    margin-right: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* =========================================================================== */
+  /* Reusable                                                                    */
+  /* =========================================================================== */
+  section {
+    height: 600px;
+  }
+
+  /* =========================================================================== */
+  /* Header                                                                      */
+  /* =========================================================================== */
+  #nav-bar {
+    padding-top: 50px;
+  }
+
+  #nav-bar li {
+    margin-left: 50px;
+  }
+
+  #nav-bar {
+    margin-right: 100px;
+  }
+
+  #Logo {
+    margin-left: 100px;
+  }
+
+  #main-text-box {
+    margin-left: 100px;
+  }
+
+  #main-text-box {
+    padding-top: 250px;
+  }
+
+  /* =========================================================================== */
+  /* About Us                                                                    */
+  /* =========================================================================== */
+  #about-paragraph {
+    float: left;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  #about-focus {
+    float: right;
+    width: 50%;
+  }
+
+  #about-us p,
+  #programs p {
+    font-size: 100%;
+  }
+
+  #about-us ul {
+    padding-top: 40px;
+    margin-left: 50px;
+  }
+
+  #about-us li p,
+  #programs li p {
+    font-size: 100%;
+  }
+
+  #one {
+    margin-top: 30px;
+  }
+
+  /* =========================================================================== */
+  /* Venue                                                                       */
+  /* =========================================================================== */
+  #venue h1 {
+    font-size: 400%;
+    padding-top: 200px;
+  }
+
+  /* =========================================================================== */
+  /* Programs                                                                    */
+  /* =========================================================================== */
+  #programs {
+    height: 600px;
+  }
+
+  #programs-timeline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #programs-timeline img {
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+    float: left;
+  }
+
+  #programs-paragraph {
+    width: 50%;
+    float: right;
+    font-size: 90%;
+  }
+
+  #programs ul {
+    margin-top: 0;
+  }
+
+
+  /* =========================================================================== */
+  /* GYES                                                                        */
+  /* =========================================================================== */
+  #GYES {
+    height: 544px;
+  }
+
+  .GYES-image {
+    width: 32%;
+    height: 300px;
+    margin-right: 2%;
+    float: left;
+
+    background-color: #000000;
+  }
+
+  .last-image {
+    display: block;
+  }
+
+  /* =========================================================================== */
+  /* Team                                                                        */
+  /* =========================================================================== */
+  #team {
+    height: 850px;
+  }
+
+  #shift {
+    margin-left: 20px;
+  }
+
+  .members img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    float: left;
+
+    box-shadow: -1px 1px 10px #2d2d2d;
+  }
+
+  #team p {
+    width: 180px;
+    font-size: 90%;
+    padding-left: 140px;
+    padding-top: 20px;
+  }
+
+  .members li {
+    float: left;
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .mentor {
+    width: 48%;
+    margin-right: 2%;
+  }
+
+  .spacer {
+    width: 100%;
+  }
+
+  /* =========================================================================== */
+  /*  Contact Us                                                                 */
+  /* =========================================================================== */
+  #contact-us {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Footer                                                                        */
+  /* =========================================================================== */
+  #copyright,
+  .location {
+    width: 275px;
+  }
+
+  #contact {
+    margin-top: -120px;
+    text-align: center;
+  }
+
+  footer ul {
+    margin-right: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* =========================================================================== */
+  /* Reusable                                                                    */
+  /* =========================================================================== */
+  section {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Header                                                                      */
+  /* =========================================================================== */
+  #nav-bar {
+    padding-top: 50px;
+  }
+
+  #nav-bar li {
+    margin-left: 50px;
+  }
+
+  #nav-bar {
+    margin-right: 100px;
+  }
+
+  #Logo {
+    margin-left: 100px;
+  }
+
+  #main-text-box {
+    margin-left: 200px;
+  }
+
+  #main-text-box {
+    padding-top: 250px;
+  }
+
+  /* =========================================================================== */
+  /* About Us                                                                    */
+  /* =========================================================================== */
+  #about-paragraph {
+    float: left;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  #about-focus {
+    float: right;
+    width: 50%;
+  }
+
+  #about-us p,
+  #programs p {
+    font-size: 100%;
+  }
+
+  #about-us ul {
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+
+  #about-us li p,
+  #programs li p,
+   {
+    font-size: 100%;
+  }
+
+  #one {
+    margin-top: 10px;
+  }
+
+  /* =========================================================================== */
+  /* Venue                                                                       */
+  /* =========================================================================== */
+  #venue h1 {
+    font-size: 400%;
+    padding-top: 200px;
+  }
+
+  /* =========================================================================== */
+  /* Programs                                                                    */
+  /* =========================================================================== */
+  #programs {
+    height: 544px;
+  }
+
+  #programs-timeline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #programs-timeline img {
+    width: 40%;
+    height: 400px;
+    margin-top: 0;
+    float: left;
+  }
+
+  #programs-paragraph {
+    width: 50%;
+    float: right;
+    font-size: 90%;
+  }
+
+  #programs ul {
+    margin-top: 0;
+  }
+
+  /* =========================================================================== */
+  /* GYES                                                                        */
+  /* =========================================================================== */
+  #GYES {
+    height: 544px;
+  }
+
+  .GYES-image {
+    width: 32%;
+    height: 300px;
+    margin-right: 2%;
+    float: left;
+
+    background-color: #000000;
+  }
+
+  .last-image {
+    display: block;
+  }
+
+  /* =========================================================================== */
+  /* Team                                                                        */
+  /* =========================================================================== */
+  #team {
+    height: 600px;
+  }
+
+  .members img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    float: left;
+
+    box-shadow: -1px 1px 10px #2d2d2d;
+  }
+
+  #team p {
+    width: 180px;
+    font-size: 90%;
+    padding-left: 140px;
+    padding-top: 20px;
+  }
+
+  .members li {
+    float: left;
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .mentor {
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  .last {
+    margin-right: 0%;
+  }
+
+  /* =========================================================================== */
+  /*  Contact Us                                                                 */
+  /* =========================================================================== */
+  #contact-us {
+    height: 544px;
+  }
+
+  /* =========================================================================== */
+  /* Footer                                                                      */
+  /* =========================================================================== */
+  #copyright,
+  .location {
+    width: 300px;
+  }
+
+  #contact {
+    margin-top: -120px;
+    text-align: center;
+  }
+
+  footer ul {
+    margin-right: 50px;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================================================== */
+/* HTML                                                                        */
+/* =========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 300;
+  overflow-x: hidden;
+  background-color: #000000;
+  text-rendering: optimizeLegibility;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+/* Colors ==================================================================== */
+/* #6c6c6c = light gray                                                        */
+/* #585858 = dark gray                                                         */
+/* #882222 = dark red                                                          */
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+/* Reusable                                                                    */
+/* =========================================================================== */
+section {
+  width: 80%;
+  padding: 100px 10%;
+  background-color: #ffffff;
+}
+
+.icon-small {
+  width: 40px;
+  font-size: 150%;
+  margin-right: 10px;
+
+  color: #882222;
+}
+
+.icon-big {
+  width: 40px;
+  font-size: 350%;
+  margin-right: 10px;
+
+  color: #882222;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 250%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 200%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+
+  text-align: center;
+  color: #2d2d2d;
+}
+
+h2:after {
+  height: 3px;
+  width: 100px;
+  margin: 30px auto 60px auto;
+
+  content: " ";
+  display: block;
+  background-color: #882222;
+}
+
+h3 {
+  font-size: 100%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 100%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+
+  color: #2d2d2d;
+}
+
+.btn {
+  font-weight: 300;
+  padding: 10px 40px;
+  border-radius: 200px;
+
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  margin-right: 15px;
+  color: #ffffff;
+  background-color: #6c6c6c;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  color: #ffffff;
+  background-color: #585858;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+  color: #ffffff;
+  border: 1px solid #6c6c6c;
+  background-color: transparent;
+  transition: color 0.2s, border 0.2s, background-color 0.2s;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+  color: #ffffff;
+  border: 1px solid #585858;
+  background-color: #585858;
+  transition: color 0.2s, border 0.2s, background-color 0.2s;
+}
+
+.btn-social:not(hover),
+.btn-social:not(active){
+  color: #ffffff;
+  transition: color 0.4s;
+}
+
+.btn-social:hover,
+.btn-social:active {
+  color: #882222;
+  transition: color 0.4s;
+}
+
+/* =========================================================================== */
+/* Links                                                                       */
+/* =========================================================================== */
+.non-btn:link,
+.non-btn:visited {
+  padding: 8px 0px;
+
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.non-btn:hover,
+.non-btn:active {
+  border-bottom: 2px solid #6c6c6c;
+  transition: border-bottom 0.2s;
+}
+
+/* =========================================================================== */
+/* Header                                                                      */
+/* =========================================================================== */
+
+header {
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/backgrounds/Home.jpg");
+}
+
+#nav-bar li {
+  float: right;
+
+  list-style: none;
+}
+
+#Logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+}
+
+#main-text-box {
+  color: #ffffff;
+}
+
+#main-text-box span {
+  font-weight: bold;
+}
+
+/* =========================================================================== */
+/* About Us                                                                    */
+/* =========================================================================== */
+#about-paragraph {
+  text-align: justify;
+}
+
+#about-focus li{
+  font-size: 125%;
+  margin-bottom: 25px;
+
+  list-style: none;
+  text-align: justify;
+}
+
+#about-focus p {
+  padding-top: 10px;
+}
+
+#about-focus i {
+  float: left;
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+/* =========================================================================== */
+/*  Venue                                                                      */
+/* =========================================================================== */
+
+#venue {
+  height: 555px;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/backgrounds/sv101venue.jpg");
+  background-size: cover;
+}
+
+#venue h1 {
+  color: #ffffff;
+  text-align: left;
+}
+
+#venue span {
+  font-weight: bold;
+}
+
+/* =========================================================================== */
+/* Programs                                                                    */
+/* =========================================================================== */
+
+#center {
+  text-align: center;
+}
+
+#programs ul h4 {
+  text-align: center;
+}
+
+#programs-paragraph p {
+  text-align: justify;
+}
+/* =========================================================================== */
+/* GYES                                                                        */
+/* =========================================================================== */
+
+#GYES {
+  background-color: #fbfafa;
+}
+
+#GYES-paragraph {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.last-image {
+  margin-right: 0;
+}
+
+/* caption =================================================================== */
+.GYES-image #GYES-Caption {
+  bottom: 220px;
+
+  opacity: 0;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  transition: opacity 0.4s;
+}
+
+.GYES-image:hover #GYES-Caption {
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.GYES-image img {
+  width: 100%;
+  height: 300px;
+
+  background-color: #000000;
+}
+
+.GYES-image:not(hover) img {
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.GYES-image:hover img {
+  opacity: 0.4;
+  transition: opacity 0.4s;
+}
+
+.GYES-image:hover img:after {
+  content: 'Text';
+  color: #000000;
+}
+
+/* =========================================================================== */
+/* Team                                                                     */
+/* =========================================================================== */
+
+#team span { color: #5d5d5d; }
+
+#board-title {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #882222;
+}
+
+#advisor-title {
+  margin-top: 170px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #882222;
+}
+
+/* =========================================================================== */
+/*  Contact Us                                                                 */
+/* =========================================================================== */
+#contact-us {
+  background-color: #fbfafa;
+}
+
+.span-one-of-three {
+  float: left;
+  text-align: right;
+  width: 25%;
+  margin-right: 5%;
+}
+
+.span-two-of-three {
+  float: right;
+  width: 60%;
+  margin-right: 10%;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 500px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  font-size: 80%;
+
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+select {
+  width: 523px;
+
+  color: #777777;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+
+  font-family: 'Lato';
+}
+
+#name-label {
+  padding-top: 5px;
+}
+
+#email-label {
+  padding-top: 15px;
+}
+
+#country-label {
+  padding-top: 20px;
+}
+
+#message-label {
+  padding-top: 30px;
+}
+
+input[type="submit"]:not(hover) {
+  font-size: 125%;
+  padding: 8px 60px;
+
+  color: #ffffff;
+  border-radius: 200px;
+  background-color: #6c6c6c;
+  border: 1px solid #cccccc;
+  transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #585858;
+  transition: background-color 0.2s;
+}
+
+/* =========================================================================== */
+/*  Footer                                                                     */
+/* =========================================================================== */
+footer {
+  height: 200px;
+
+  color: #ffffff;
+}
+
+#copyright {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.location {
+  font-size: 70%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+
+footer ul {
+  float: right;
+  padding-top: 20px;
+}
+
+footer li {
+  float: left;
+  margin-right: 25px;
+
+  list-style: none;
+}
+
+footer i {
+  font-size: 200%;
+
+  color: #ffffff;
+}
